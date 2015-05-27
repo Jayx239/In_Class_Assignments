@@ -20,8 +20,8 @@ public class UniquePrimeFactors {
     UniquePrimeFactors(){
         
     }
-    Map<Integer,Integer> primes = new HashMap<Integer,Integer>();
-    int primeDivisor = 2;
+    private Map<Integer,Integer> primes = new HashMap<Integer,Integer>();
+    private int primeDivisor = 2;
     public void getPrimes(int testNum){
         if(primeDivisor <= testNum){
             if(testNum%primeDivisor == 0){
